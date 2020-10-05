@@ -1,0 +1,19 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+  <head>
+    {% include "model-header.html" %}
+  </head>
+  <body>
+    <div class="container">
+      {% for m in movieList %}
+      <div>
+        <p>{{ m.Title }}</p>
+      </div>
+      {% endfor %}
+    </div>
+
+
+    {% include "model-footer.html" %}
+  </body>
+</html>
+
